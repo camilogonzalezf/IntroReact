@@ -1,0 +1,31 @@
+.form{
+    background-color: white;
+    height: 300px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.textArea {
+    border: 1px solid blue;
+    height: 100px;
+    width: 200px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.buttons{
+    width: 50%;
+    margin: 10px 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.buttonPress{
+    border-radius: 10px;
+    border: none;
+    height: 25px;
+    background-color: darkorange;
+    cursor: pointer;
+}
